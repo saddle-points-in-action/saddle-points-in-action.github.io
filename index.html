@@ -100,7 +100,9 @@ a:hover {
 <div id="central-column">
 <div id="content">
     
-<h1>Test Figure 1</h1>
+<h1>Welcome! You've successfully scanned the QR code on my poster &#127881; </h1>
+(or you're just stalking my github?!)
+
 <div id="introduction">
 <p>
 This page contains 3D figures for the poster "The frequency switchover: Tracking ionization events in bichromatic strong-field ionization", presented at ATTO9 (July 9-14th 2023 Jeju Island, South Korea) and ISWAMP (July 21-24th 2023, St. Sauveur, Canada).
@@ -155,19 +157,67 @@ Use the left mouse button to rotate the object and the middle mouse button to pa
 </div>
 </div> -->
 
+<!-- <div class="figure-container" id="figure-1ab">
+<div class="figure-title" id="figure-1-title">
+  <h2>Fig. 1) Saddle point solutions in parameter space</h2>
+  This is what I refer to as the 'boat', colours accodring to momentum (p=+3 red, p=-3 blue), hence unclassified.
+</div>
+<div class="3dfigure" id="figure-1-figure">
+<x3d width='800px' height='500px'>
+  <scene>
+   <Viewpoint position="32 112 96" orientation="-0.55774 -0.46998 -0.68414 2.02850" centerOfRotation="18 0 70"  description="camera"></Viewpoint>
+   <PointLight id='point' on='TRUE' intensity='0.5' color='1 1 1' location='0 0 50' radius='150' >  </PointLight>
+   <PointLight id='point' on='TRUE' intensity='0.5' color='1 1 1' location='30 0 75' radius='150' >  </PointLight> 
+   <Inline namespace="boat" url="boat.x3d" />
+  </scene>
+</x3d>
+</div>
+</div>  -->
 
 <div>
-  <h1>This should display a gif of Im(S) per saddle</h1>
-          <video autoplay loop muted width="500" height="300" src="./ImSvSaddles2.gif">
-          This wants to be the subcaption.
-          </video>
+  <h1>Fig. 1) Saddle point solutions in parameter space</h2>
+  This is what I refer to as the 'boat', colours according to momentum (p=+3 red, p=-3 blue), hence unclassified.
+<img src="./boat.gif"
+  alt="Im(S) for each saddle."
+        height="400px"
+        width="400px"/>
+
+</div>
+
+
+
+<div>
+  <h1>Fig. 2) Contribution of each saddle to the spectrum</h1>
+  This shows the imaginary part of the action, Im(S), per each saddle.
+<img src="./ImSvSaddles2.gif"
+  alt="Im(S) for each saddle."
+        height="400px"
+        width="400px"/>
+
 </div>
 
 
 
 
 
-<div class="figure-container" id="figure-1ab">
+
+
+<!-- 
+<div>
+  <h1>Fig. 2) Contribution of each saddle to the spectrum</h1>
+  This shows the imaginary part of the action, Im(S), per each saddle.
+<img src="./ImSvSaddles2.gif"
+  alt="Im(S) for each saddle."
+        height="400px"
+        width="400px"/>
+
+</div> -->
+
+
+
+
+
+<!-- <div class="figure-container" id="figure-1ab">
 <div class="figure-title" id="figure-1ab-title">
   <h2>3D Figure 1(a,b)</h2>
 </div>
@@ -175,14 +225,14 @@ Use the left mouse button to rotate the object and the middle mouse button to pa
 <x3d width='800px' height='500px'>
   <scene>
    <Viewpoint position="32 112 96" orientation="-0.55774 -0.46998 -0.68414 2.02850" centerOfRotation="18 0 70"  description="camera"></Viewpoint>
-<!--    <PointLight id='point' on='TRUE' intensity='0.5' color='1 1 1' location='0 0 50' radius='150' >  </PointLight>
-   <PointLight id='point' on='TRUE' intensity='0.5' color='1 1 1' location='30 0 75' radius='150' >  </PointLight> -->
+   <PointLight id='point' on='TRUE' intensity='0.5' color='1 1 1' location='0 0 50' radius='150' >  </PointLight>
+   <PointLight id='point' on='TRUE' intensity='0.5' color='1 1 1' location='30 0 75' radius='150' >  </PointLight> 
    <Inline namespace="ImSvSaddleCw" url="ImSvSaddleCw.x3d" />
   </scene>
 </x3d>
 </div>
 </div> 
-
+ --> 
 
 
 
